@@ -1,0 +1,155 @@
+.header-row {
+    background: #eee;
+    height: 200px;
+    padding: 10px;
+    h1 {
+        color: white;
+        font-size: 100px;
+        font-family: 'Lato', 'Helvetica', sans-serif;
+        font-weight: 700;
+        margin-top: 80px;
+    }
+}
+
+.welcome-row {
+    .left-column {
+        padding: 10px;
+        background: black;
+        h4,
+        p {
+            color: white;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 400;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+    .right-column {
+        padding: 10px;
+        h6 {
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 400;
+        }
+        p {
+            font-weight: 300;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+        }
+    }
+}
+
+.article-one {
+    .left-column {
+        padding: 0 !important;
+    }
+    .right-column {
+        background: black;
+        h4,
+        p,
+        a {
+            color: white;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 700;
+            padding: 10px;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.article-two {
+    .left-column {
+        padding: 0 !important;
+    }
+    .right-column {
+        background: grey;
+        h4,
+        p,
+        a {
+            color: white;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 700;
+            padding: 10px;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.article-three {
+    .left-column {
+        padding: 0 !important;
+    }
+    .right-column {
+        background: darkgrey;
+        h4,
+        p,
+        a {
+            color: white;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 700;
+            padding: 10px;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+.highlights-row {
+    .col-one {
+        background: grey;
+        padding: 10px;
+        p,
+        a {
+            color: black;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 300;
+        }
+        a {
+            font-weight: 400;
+        }
+    }
+    .col-two {
+        background: white;
+        padding: 10px;
+        p,
+        a {
+            color: black;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 300;
+        }
+        a {
+            font-weight: 400;
+        }
+    }
+    .col-three {
+        background: grey;
+        padding: 10px;
+        p,
+        a {
+            color: black;
+            font-family: 'Lato', 'Helvetica', sans-serif;
+            font-weight: 300;
+        }
+        a {
+            font-weight: 400;
+        }
+    }
+}
+
+.footer-row {
+    margin-top: 20px;
+    p,
+    a {
+        text-align: center;
+        font-size: 10px;
+        font-family: 'Lato', 'Helvetica', sans-serif;
+        font-weight: 300;
+    }
+    a {
+        color: black;
+    }
+}
