@@ -1,188 +1,205 @@
 .header-row {
-    background: url('https://image.ibb.co/nmzv7T/header_bg.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 300px;
-    padding: 10px;
-    img {
-        height: 50px;
-        margin-top: 20px;
-    }
-    h1 {
-        color: white;
-        font-size: 100px;
-        font-family: 'Lato', 'Helvetica', sans-serif;
-        font-weight: 700;
-        margin-top: 80px;
-    }
+  background: url('https://image.ibb.co/nmzv7T/header_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  padding: 10px;
+  img {
+    height: 50px;
+    margin-top: 20px;
+  }
+  h1 {
+    color: white;
+    font-size: 100px;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-weight: 700;
+    margin-top: 80px;
+    hyphens: none;
+  }
 }
 
 .welcome-row {
-    .left-column {
-        padding: 10px;
-        background: black;
-        h4,
-        p {
-            color: white;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 400;
-        }
-        p {
-            font-weight: 300;
-        }
+  .left-column {
+    padding: 10px;
+    background: grey;
+    p {
+      color: white;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 400;
+      hyphens: none;
     }
-    .right-column {
-        padding: 10px;
-        h6 {
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 400;
-        }
-        p {
-            font-weight: 300;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-        }
+    p {
+      font-weight: 300;
     }
+  }
+  .right-column {
+    background: darken(#eee, 5%);
+    padding: 10px;
+    h6 {
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 400;
+      hyphens: none;
+    }
+    p {
+      font-weight: 300;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      hyphens: none;
+    }
+  }
 }
 
 .article-one {
-    .left-column {
-        padding: 0 !important;
-        img {
-            object-fit: contain;
-        }
+  .left-column {
+    padding: 0 !important;
+  }
+  .right-column {
+    background: grey;
+    height: 245px;
+    padding-top: 10px;
+    h5,
+    p,
+    a {
+      color: white;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 700;
+      padding: 10px 10px 0px;
+      hyphens: none;
     }
-    .right-column {
-        background: black;
-        height: 245px;
-        h5,
-        p,
-        a {
-            color: white;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 700;
-            padding: 10px 10px 0px;
-        }
-        p {
-            font-weight: 300;
-            margin-bottom: 19px;
-        }
-        h5 {
-            line-height: 1.3;
-        }
+    p {
+      font-weight: 300;
+      margin-bottom: 19px;
     }
+    h5 {
+      line-height: 1.3;
+    }
+  }
 }
 
 .article-two {
-    .left-column {
-        padding: 0 !important;
+  .left-column {
+    padding: 0 !important;
+  }
+  .right-column {
+    background: grey;
+    height: 245px;
+    padding-top: 10px;
+    h5,
+    p,
+    a {
+      color: white;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 700;
+      padding: 10px 10px 0px;
+      hyphens: none;
     }
-    .right-column {
-        background: grey;
-        height: 245px;
-        h5,
-        p,
-        a {
-            color: white;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 700;
-            padding: 10px 10px 0px;
-        }
-        p {
-            font-weight: 300;
-            margin-bottom: 19px;
-        }
-        h5 {
-            line-height: 1.3;
-        }
+    p {
+      font-weight: 300;
+      margin-bottom: 19px;
     }
+    h5 {
+      line-height: 1.3;
+    }
+  }
 }
 
 .article-three {
-    .left-column {
-        padding: 0 !important;
+  .left-column {
+    padding: 0 !important;
+  }
+  .right-column {
+    background: grey;
+    height: 245px;
+    padding-top: 10px;
+    h5,
+    p,
+    a {
+      color: white;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 700;
+      padding: 10px 10px 0px;
+      hyphens: none;
     }
-    .right-column {
-        background: darkgrey;
-        height: 245px;
-        h5,
-        p,
-        a {
-            color: white;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 700;
-            padding: 10px 10px 0px;
-        }
-        p {
-            font-weight: 300;
-            margin-bottom: 19px;
-        }
-        h5 {
-            line-height: 1.3;
-        }
+    p {
+      font-weight: 300;
+      margin-bottom: 19px;
     }
+    h5 {
+      line-height: 1.3;
+    }
+  }
 }
 
 .highlights-row {
-    .col-one {
-        background: grey;
-        padding: 10px;
-        p,
-        a {
-            color: black;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 300;
-        }
-        a {
-            font-weight: 400;
-        }
-        h6 {
-            line-height: 1.3;
-        }
+  .col-one {
+    background: grey;
+    padding: 10px;
+    padding-top: 15px;
+    p,
+    a {
+      color: black;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 300;
+      hyphens: none;
     }
-    .col-two {
-        background: white;
-        padding: 10px;
-        p,
-        a {
-            color: black;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 300;
-        }
-        a {
-            font-weight: 400;
-        }
-        h6 {
-            line-height: 1.3;
-        }
+    a {
+      font-weight: 400;
     }
-    .col-three {
-        background: grey;
-        padding: 10px;
-        p,
-        a {
-            color: black;
-            font-family: 'Lato', 'Helvetica', sans-serif;
-            font-weight: 300;
-        }
-        a {
-            font-weight: 400;
-        }
-        h6 {
-            line-height: 1.3;
-        }
+    h6 {
+      line-height: 1.3;
+      hyphens: none;
     }
+  }
+  .col-two {
+    background: darken(#eee, 5%);
+    padding: 10px;
+    padding-top: 15px;
+    p,
+    a {
+      color: black;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 300;
+      hyphens: none;
+    }
+    a {
+      font-weight: 400;
+    }
+    h6 {
+      line-height: 1.3;
+      hyphens: none;
+    }
+  }
+  .col-three {
+    background: grey;
+    padding: 10px;
+    padding-top: 15px;
+    p,
+    a {
+      color: black;
+      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-weight: 300;
+      hyphens: none;
+    }
+    a {
+      font-weight: 400;
+    }
+    h6 {
+      line-height: 1.3;
+      hyphens: none;
+    }
+  }
 }
 
 .footer-row {
-    margin-top: 20px;
-    p,
-    a {
-        text-align: center;
-        font-size: 10px;
-        font-family: 'Lato', 'Helvetica', sans-serif;
-        font-weight: 300;
-    }
-    a {
-        color: black;
-    }
+  margin-top: 20px;
+  p,
+  a {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-weight: 300;
+    hyphens: none;
+  }
+  a {
+    color: black;
+  }
 }
