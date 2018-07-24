@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 .header-row {
-  background: url('https://image.ibb.co/nmzv7T/header_bg.jpg');
+  background: url('https://image.ibb.co/jXxpjJ/header_bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -11,7 +12,7 @@
   h1 {
     color: white;
     font-size: 100px;
-    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
     font-weight: 700;
     margin-top: 80px;
     hyphens: none;
@@ -22,9 +23,12 @@
   .left-column {
     padding: 10px;
     background: grey;
+    img {
+      display: inline-block;
+    }
     p {
       color: white;
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       font-weight: 400;
       hyphens: none;
     }
@@ -36,13 +40,13 @@
     background: darken(#eee, 5%);
     padding: 10px;
     h6 {
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       font-weight: 400;
       hyphens: none;
     }
     p {
       font-weight: 300;
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       hyphens: none;
     }
   }
@@ -56,12 +60,13 @@
     background: grey;
     height: 245px;
     padding-top: 10px;
+    padding-bottom: 14px !important;
     h5,
     p,
     a {
       color: white;
-      font-family: 'Lato', 'Helvetica', sans-serif;
-      font-weight: 700;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
+      font-weight: 600;
       padding: 10px 10px 0px;
       hyphens: none;
     }
@@ -83,12 +88,13 @@
     background: grey;
     height: 245px;
     padding-top: 10px;
+    padding-bottom: 10px !important;
     h5,
     p,
     a {
       color: white;
-      font-family: 'Lato', 'Helvetica', sans-serif;
-      font-weight: 700;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
+      font-weight: 600;
       padding: 10px 10px 0px;
       hyphens: none;
     }
@@ -110,12 +116,13 @@
     background: grey;
     height: 245px;
     padding-top: 10px;
+    padding-bottom: 10px !important;
     h5,
     p,
     a {
       color: white;
-      font-family: 'Lato', 'Helvetica', sans-serif;
-      font-weight: 700;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
+      font-weight: 600;
       padding: 10px 10px 0px;
       hyphens: none;
     }
@@ -137,7 +144,7 @@
     p,
     a {
       color: black;
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       font-weight: 300;
       hyphens: none;
     }
@@ -156,7 +163,7 @@
     p,
     a {
       color: black;
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       font-weight: 300;
       hyphens: none;
     }
@@ -175,7 +182,7 @@
     p,
     a {
       color: black;
-      font-family: 'Lato', 'Helvetica', sans-serif;
+      font-family: 'Open Sans', 'Helvetica', sans-serif;
       font-weight: 300;
       hyphens: none;
     }
@@ -195,7 +202,7 @@
   a {
     text-align: center;
     font-size: 10px;
-    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-family: 'Open Sans', 'Helvetica', sans-serif;
     font-weight: 300;
     hyphens: none;
   }
