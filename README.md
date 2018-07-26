@@ -1,3 +1,5 @@
-# Newsletter Email
+# National Geographic Newsletter Email
 
-Responsive HTML email.
+Responsive HTML email in newsletter format for National Geographic.
+
+Technologies: HTML, CSS, Zurb Foundation Emails.
